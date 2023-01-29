@@ -1,0 +1,21 @@
+{
+    "name": "myo/cpanel-auto-backup",
+    "description": "It helps you can automatically backup your database via cPanel.",
+    "homepage": "https://github.com/mustafayusufozcan/cpanel-auto-backup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mustafa Yusuf Özcan",
+            "homepage": "https://github.com/mustafayusufozcan"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "google/apiclient": "^2.12.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "cPanelAutoBackup": "src"
+        }
+    }
+}
